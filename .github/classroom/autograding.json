@@ -3,7 +3,7 @@
     {
       "name": "Image file present",
       "setup": "",
-      "run": "ls | tr [:upper:] [:lower:]",
+      "run": "ls",
       "input": "",
       "output": ".*\\.(jpg|jpeg|png|gif|tif|bmp|eps|psd|xcf|ai|raw|webp)",
       "comparison": "regex",
